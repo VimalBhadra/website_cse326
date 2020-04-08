@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COOKING WEBSITE</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<style type="text/css">
+		body 
+		{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .topnavtop a
+        {
+        	float: right;
+            color: #738E76;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: 'Courgette', cursive;
+        }
+        .toppic
+        {
+        	margin-right: 100px;
+        }
+        .topnav 
+        {
+            overflow: hidden;
+            background-color: #21C536;
+        }
+        .topnav a
+        {
+            float: right;
+            color: #536556;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: 'IM Fell English', serif;
+        }
+        .searchbox
+        {
+        	margin-top: 10px;
+        	margin-left: 200px;
+        	border: 1px solid #C0C0C0;
+        	border-radius: 2px;
+        	padding: 5px;
+        	font-family: 'IM Fell English', serif;
+        }
+        .topbutton
+        {
+        	border: 1px solid black;
+        	background-color: #21C536;
+        	border-radius: 100px;
+        	margin-top: 5px;
+        	color: #FFFFFF;
+        }
+        .beforesearch
+        {
+        	font-family: 'Courgette', cursive;
+        	color: #F4F9F5;
+        	margin-top: 10px;
+        }
+		.topimg1
+		{
+			float:left;
+			width:60%;
+			padding: 5px;
+		}
+		.topimg2
+		{
+			float: left;
+			width: 5.5%;
+			padding: 5px;
+		}
+		.box
+		{
+			border-color: #C0C0C0;
+			border-width: 1px;
+			border-style: solid;
+			float: left;
+			padding: 5px;
+			width:32%;
+			text-align: center;
+			margin-top: 5px;
+		}
+		.boxheading
+		{
+			font-family: 'PT Sans', sans-serif;
+			font-size: 40px;
+		}
+		.clearfix::after 
+		{
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .subbox
+        {
+        	border: 1px solid black;
+        	margin-left: 160px;
+        	margin-right: 160px;
+        	padding: 5px;
+        	font-family: 'Courgette', cursive;
+        }
+        .boxtext
+        {
+        	font-family: 'Roboto Slab', serif;
+        	font-family: 'Asap', sans-serif;
+        }
+        .bottomheading
+        {
+        	margin-left: 35%;
+        	font-family: 'Bitter', serif;
+			font-size: 30px;
+        }
+        .bottomheadingimage
+        {
+        	margin-left: 43%;
+        }
+        .bottomfirst
+        {
+        	float:left;
+        	padding: 5px;
+        	width: 20%;
+        	margin-left: 100px;
+        }
+        .bottomsecond
+        {
+        	float:left;
+        	padding: 5px;
+        	width: 20%;
+        }
+        .bottomtext
+        {
+        	text-align: center;
+        	float:left;
+        	padding: 5px;
+        	width: 20%;
+        	border: 1px solid #C0C0C0;
+        	font-family: 'Do Hyeon', sans-serif;
+			font-size: 20px;
+			margin-top: 5px;
+        }
+	</style>
+</head>
+<body>
+<div class="topnavtop">
+  <img src="recipeppiccccccc.png">
+  <a class="topbutton">Submit Recipe</a>
+  <a>Contact</a>
+  <a>Pages</a>
+  <a>Blog</a>
+  <a>Chefs</a>
+  <a>Recipe Detail</a>
+  <a>Recent Recipes</a>
+  <a>Home</a>
+</div>
+<div class="topnav">
+  <input class="searchbox" type="text" placeholder="Keyword">
+  <a>Lunch</a>
+  <a><i class='fas fa-hamburger' style='font-size:24px; color: #8DA191'></i></a>
+  <a>Fruits</a>
+  <a><i class='fas fa-apple-alt' style='font-size:24px; color: #8DA191'></i></a>
+  <a>Dinner</a>
+  <a><i class='fas fa-pizza-slice' style='font-size:24px; color: #8DA191'></i></a>
+  <a>Dessert</a>
+  <a><i class='fas fa-cheese' style='font-size:24px; color: #8DA191'></i></a>
+  <a>Breakfast</a>
+  <a><i class='fas fa-bread-slice' style='font-size:24px; color: #8DA191'></i></a>
+</div>
+<div class="clearfix">
+<img class="topimg1" src="recipepic.png">
+<div class="box"><b class="boxheading">SPECIAL ITALIAN</b><br><b class="boxheading">HERBS & CHEESE</b><br><b class="boxheading">STAKE</b></br></br><img src="recipeppiccc.png"><h4 class="boxtext">(4.1/5)</h4></br><h5 class="boxtext">Lorem Ipsum is simply a dummy text of the</h5><h5 class="boxtext">printing and typesetting industry.Lorem Ipsum</h5><h5 class="boxtext">has...</h5></br>
+<h4 class="subbox">Learn More</h4></div>
+<img class="topimg2" src="recipeppicc.png">
+</div>
+</br></br>
+<b class="bottomheading">HOTTEST RECIPES AT FOOD & TASTE</b>
+</br>
+<img class="bottomheadingimage" src="recipeppicccc.png">
+</br></br>
+<div class="clearfix" class="bottomcontent">
+	<img class="bottomfirst" src="recipeppiccccc.png">
+	<div class="bottomtext"><b>PASTO PIZZA WITH EXTRA</b></br><b>TOPPINGS</b></div>
+	<img class="bottomsecond" src="recipeppicccccc.png">
+	<div class="bottomtext"><b>SPECIAL INDIAN HERBS &</b></br><b>CHEESE STAKE</b></div>
+</div>
+</body>
+</html>
